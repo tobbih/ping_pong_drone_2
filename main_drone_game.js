@@ -37,7 +37,7 @@ event.on('collision', function(type) {
     audio.PlayPing();
     drone.Move('back');
   }
-      
+
   if (type == 'right') {
     console.log('Left Collision');
     audio.PlayPong();
